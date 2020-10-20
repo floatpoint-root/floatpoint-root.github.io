@@ -1,0 +1,6 @@
+baseURL = "https://floatpoint.co/"
+languageCode = "en-us"
+title = "Floatpoint"
+theme = "blogboi"
+
+pluralizeListTitles = false
