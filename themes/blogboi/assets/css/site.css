@@ -85,7 +85,7 @@
 
 @media (min-width: 640px) {
   .banner, .banner:before {
-    height: 22rem;
+    height: 24rem;
   }
 }
 
