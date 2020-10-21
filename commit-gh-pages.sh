@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e  # Stops shell script upon error.
+
+echo "Building Hugo site..."
+hugo -e production
+echo "Done."
+
+echo "Committing build to branch [gh-pages]."
+cd public  \
+    && git add --all \
+    && git commit -m "Builds site for gh-pages."  \
+    && cd ..
+echo "Done."
