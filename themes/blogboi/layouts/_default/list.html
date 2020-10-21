@@ -1,12 +1,13 @@
 {{ define "main" }}
 <div class="flex justify-center">
-    <div class="flex sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-lg xl:pl-12 w-full">
+    <div class="flex flex-wrap sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-lg xl:pl-12 w-full">
+        <h1 class="mb-2 text-blue text-large tracking-widest w-full">ENGINEERING & HR BLOG</h1>
         {{ range .Pages }}
-        <section class="sm:max-w-screen-sm mb-4 w-full">
+        <section class="sm:max-w-screen-sm mb-4 sm:mb-10 w-full">
             <h1 class="font-nunito text-3xl text-blue-dark hover:text-blue trans-color">
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h1>
-            <h2 class="text-gray-600 ">{{ .Date.Format "January 2, 2006" }}</h2>
+            <p class="text-gray-600 ">{{ .Date.Format "January 2, 2006" }}</p>
         </section>
         {{ end }}
     </div>

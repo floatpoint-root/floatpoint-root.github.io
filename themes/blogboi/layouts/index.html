@@ -1,14 +1,32 @@
 {{ define "main" }}
 <div class="flex justify-center">
-    <div class="flex sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-lg xl:pl-12 w-full">
+    <div class="bg-blue max-w-xs mb-10 sm:mb-16 overflow-hidden pt-5 rounded-lg shadow-lg w-full">
+        <h1 class="font-nunito mb-4 text-center text-xl text-white tracking-wider">Applicant Tracking Repo</h1>
+        <h2 class="font-nunito mb-3 text-center text-sm text-white tracking-wider">A simple hiring workflow for
+            <br />reviewing job applicants.
+        </h2>
+        <div>
+            <a class="bg-blue-dark hover:bg-blue-darker block flex justify-center items-center py-3 trans-bgcolor"
+                href="https://github.com/floatpoint-team/applicant-tracking-repo">
+                <img class="h-5 mr-2" src="/images/github_logo_light.png">
+                <span class="text-sm text-white">View on GitHub</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="flex justify-center">
+    <div class="flex flex-wrap sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-lg xl:pl-12 w-full">
+        <h2 class="mb-2 inline-block text-blue tracking-widest w-full">
+            <a href="/blog/" class="hover:aniline-blue">ENGINEERING & HR BLOG</a>
+        </h2>
         {{ range .Site.Sections }}
         {{ if eq .Title "Blog" }}
         {{ range .Pages }}
-        <section class="sm:max-w-screen-sm mb-4 w-full">
-            <h1 class="font-nunito text-3xl text-blue-dark hover:text-blue trans-color">
+        <section class="sm:max-w-screen-sm mb-4 sm:mb-10 w-full">
+            <h1 class="font-nunito text-2xl sm:text-3xl text-blue-dark hover:text-blue trans-color">
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h1>
-            <h2 class="text-gray-600 ">{{ .Date.Format "January 2, 2006" }}</h2>
+            <p class="text-gray-600">{{ .Date.Format "January 2, 2006" }}</p>
         </section>
         {{ end }}
         {{ end }}

@@ -18,7 +18,7 @@
         class="flex items-center justify-between flex-wrap sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg w-full">
         <a href="{{ .Site.Home.Permalink }}"
             class="bg-blue-dark hover:bg-blue-darker flex items-center px-3 py-2 my-2 rounded-sm trans-bgcolor">
-            <img class="h-6" src="/images/floatpoint_logo_word2.svg">
+            <img class="h-6" src="/images/floatpoint_logo_word.svg">
         </a>
 
         <input id="nav-toggle" type=checkbox class="hidden">
@@ -39,13 +39,14 @@
         <ul id="nav-menu" class="sm:flex w-full sm:w-auto hidden sm:block sm:space-x-12 pb-1 sm:pb-0">
             {{ with .Site.GetPage "/blog" }}
             <li class="py-1">
-                <a href="{{ .Permalink }}" class="font-nunito text-white tracking-widest hover:aniline">ENGINEERING &
-                    HR</a>
+                <a href="{{ .Permalink }}" class="font-nunito text-white tracking-widest hover:aniline-white">
+                    ENGINEERING & HR
+                </a>
             </li>
             {{ end }}
             {{ with .Site.GetPage "/about" }}
             <li class="py-1">
-                <a href="{{ .Permalink }}" class="font-nunito text-white tracking-widest hover:aniline">ABOUT</a>
+                <a href="{{ .Permalink }}" class="font-nunito text-white tracking-widest hover:aniline-white">ABOUT</a>
             </li>
             {{ end }}
         </ul>
