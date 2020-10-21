@@ -1,12 +1,18 @@
 {{ define "main" }}
-{{ range .Site.Sections }}
-{{ if eq .Title "Blog" }}
-{{ range .Pages }}
-<section class="text-gray-700 sm:mx-12 mb-4">
-    <h1 class="font-nunito text-3xl text-gray-700"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-    <h2>{{ .Date.Format "January 2, 2006" }}</h2>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
+<div class="flex justify-center">
+    <div class="flex sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-lg xl:pl-12 w-full">
+        {{ range .Site.Sections }}
+        {{ if eq .Title "Blog" }}
+        {{ range .Pages }}
+        <section class="sm:max-w-screen-sm mb-4 w-full">
+            <h1 class="font-nunito text-3xl text-blue-dark hover:text-blue trans-color">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h1>
+            <h2 class="text-gray-600 ">{{ .Date.Format "January 2, 2006" }}</h2>
+        </section>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
 {{ end }}

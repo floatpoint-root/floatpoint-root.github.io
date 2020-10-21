@@ -6,9 +6,44 @@
   font-weight: 400;
   src: url('/fonts/nunito-v14-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Nunito Regular'), local('Nunito-Regular'),
-       url('/fonts/nunito-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/nunito-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/nunito-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/nunito-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/nunito-v14-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+    url('/fonts/nunito-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/nunito-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/nunito-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('/fonts/nunito-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/nunito-v14-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+
+/* Transitions */
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+.trans-bgcolor {
+  transition: background-color cubic-bezier(0.445, 0.05, 0.55, 0.95) .3s;
+}
+
+.trans-color {
+  transition: color cubic-bezier(0.445, 0.05, 0.55, 0.95) .3s;
+}
+
+/* Links */
+.hover\:aniline {
+  position: relative;
+}
+
+.hover\:aniline::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0.125rem;
+  background: #fff;
+  transition: width .3s;
+}
+
+.hover\:aniline:hover::after {
+  width: 100%;
 }
