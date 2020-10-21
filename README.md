@@ -1,7 +1,9 @@
-# floatpoint blog
+# floatpoint-blog
 
-# Setup
+## Setup
 1. [Install Hugo](https://gohugo.io/getting-started/installing/), the static site generator.
+
+1. Install NodeJS and npm. Using [`nvm`](https://github.com/nvm-sh/nvm) is recommended.
 
 1. Clone this repo.
 ```
@@ -9,7 +11,23 @@ git clone https://github.com/floatpoint-root/floatpoint-root.github.io.git float
 cd floatpoint-blog
 ```
 
-# Deployment to GitHub Pages
+1. Install the necessary NodeJS dependencies. These are used for compiling CSS and Javascript.
+```
+npm install -g postcss-cli
+npm install -g autoprefixer
+
+cd themes/blogboi
+npm install
+cd ../..
+```
+
+## Development
+Use Hugo to start local webserver, which will refresh upon file changes.
+```
+hugo serve --disableFastRender
+```
+
+## Deployment to GitHub Pages
 
 This repository is configured to deploy from the `gh-pages` branch.
 
