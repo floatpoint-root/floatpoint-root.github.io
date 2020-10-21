@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Floatpoint</title>
-    <link>https://floatpoint-root.github.io/</link>
+    <link>https://www.floatpoint.co/</link>
     <description>Recent content on Floatpoint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://floatpoint-root.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.floatpoint.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://floatpoint-root.github.io/about/</link>
+      <link>https://www.floatpoint.co/about/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://floatpoint-root.github.io/about/</guid>
+      <guid>https://www.floatpoint.co/about/</guid>
       <description>Hello there.</description>
     </item>
     
     <item>
       <title>Buddy System</title>
-      <link>https://floatpoint-root.github.io/blog/buddy-system/</link>
+      <link>https://www.floatpoint.co/blog/buddy-system/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://floatpoint-root.github.io/blog/buddy-system/</guid>
+      <guid>https://www.floatpoint.co/blog/buddy-system/</guid>
       <description>Hello there.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non elementum est. Phasellus cursus erat quis ligula bibendum mattis. Duis finibus, felis nec interdum sodales, lacus nisi facilisis erat, nec congue sem nunc at augue. Nulla ultricies sit amet mauris quis lacinia. Aenean sed libero efficitur, interdum justo ac, sodales augue. Etiam porta sodales massa, non posuere diam eleifend sed. In id metus non nisi vulputate bibendum. Etiam aliquam euismod tincidunt.</description>
     </item>
     
     <item>
       <title>Hiring for Engineers</title>
-      <link>https://floatpoint-root.github.io/blog/hiring-for-engineers/</link>
+      <link>https://www.floatpoint.co/blog/hiring-for-engineers/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://floatpoint-root.github.io/blog/hiring-for-engineers/</guid>
+      <guid>https://www.floatpoint.co/blog/hiring-for-engineers/</guid>
       <description>Hello there.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non elementum est. Phasellus cursus erat quis ligula bibendum mattis. Duis finibus, felis nec interdum sodales, lacus nisi facilisis erat, nec congue sem nunc at augue. Nulla ultricies sit amet mauris quis lacinia. Aenean sed libero efficitur, interdum justo ac, sodales augue. Etiam porta sodales massa, non posuere diam eleifend sed. In id metus non nisi vulputate bibendum. Etiam aliquam euismod tincidunt.</description>
     </item>
