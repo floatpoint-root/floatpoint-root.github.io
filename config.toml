@@ -1,6 +1,4 @@
-baseURL = "https://floatpoint-root.github.io/"
+baseURL = "https://www.floatpoint.co/"
 languageCode = "en-us"
 title = "Floatpoint"
 theme = "blogboi"
-
-pluralizeListTitles = false
