@@ -2,7 +2,8 @@
 
 set -e  # Stops shell script upon error.
 
-echo "Building Hugo site..."
+echo "Building Hugo site for production..."
+rm -rf public/
 hugo -e production --minify
 echo "Done."
 
