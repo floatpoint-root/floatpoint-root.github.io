@@ -22,16 +22,20 @@ cd ../..
 ```
 
 ## Development
-Use Hugo to start local webserver, which will refresh upon file changes.
+In development, any Hugo content with `draft: true` or a `publishDate` in the future will be built and served.
+
+To run a local development server for the Hugo site, you can run the convenience bash script:
 ```
-hugo serve --disableFastRender --buildDrafts
+./serve-dev.sh
 ```
+A local HTTP server will serve the Hugo site on `http://localhost:1313`.
+
+The server will watch your filesystem, and any changes will trigger an automatic rebuild the Hugo site.
 
 ## Deployment to GitHub Pages
 
 This repository is configured to deploy from the `gh-pages` branch.
-Let 
-To update the `gh-pages` branch with a new build, simply run the convenience bash script:
+To update the `gh-pages` branch with a new build, you can run the convenience bash script:
 ```
 ./commit-gh-pages.sh
 ```
