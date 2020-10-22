@@ -1,6 +1,6 @@
 ---
 title: Buddy System
-date: 2020-10-27
+publishDate: 2020-10-27
 draft: true
 ---
 

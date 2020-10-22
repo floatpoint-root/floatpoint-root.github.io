@@ -1,6 +1,6 @@
 ---
 title: Sourcing for Remote Teams
-date: 2020-12-01
+publishDate: 2020-12-01
 draft: true
 ---
 
