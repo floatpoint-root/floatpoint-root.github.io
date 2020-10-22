@@ -24,7 +24,7 @@ cd ../..
 ## Development
 Use Hugo to start local webserver, which will refresh upon file changes.
 ```
-hugo serve --disableFastRender
+hugo serve --disableFastRender --buildDrafts
 ```
 
 ## Deployment to GitHub Pages

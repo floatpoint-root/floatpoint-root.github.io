@@ -3,7 +3,7 @@
 set -e  # Stops shell script upon error.
 
 echo "Building Hugo site..."
-hugo -e production
+hugo -e production --minify
 echo "Done."
 
 echo "Committing build to branch [gh-pages]."
