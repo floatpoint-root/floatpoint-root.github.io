@@ -1,6 +1,6 @@
 ---
-title: Buddy System
-date: 2020-10-27
+title: Sourcing for Remote Teams
+date: 2020-12-01
 draft: true
 ---
 

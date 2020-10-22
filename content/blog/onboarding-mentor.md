@@ -1,7 +1,7 @@
 ---
-title: Hiring for Engineers
-date: 2020-10-20
-draft: false
+title: Considering going into management? Start with being an Onboarding Mentor.
+date: 2020-11-10
+draft: true
 ---
 
 Hello there.
